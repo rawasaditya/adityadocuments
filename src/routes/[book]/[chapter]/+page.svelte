@@ -15,7 +15,7 @@
 	}
 </script>
 
-<main class="px-20 py-10">
+<main class="lg:px-20 py-10 px-10">
 	<div class="text-left sm:text-center col-span-full">
 		<div class="mb-5">
 			<span class="font-semibold text-gray-500">{createdAt}</span>

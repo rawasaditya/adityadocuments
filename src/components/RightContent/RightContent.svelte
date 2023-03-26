@@ -4,7 +4,7 @@
 </script>
 
 {#each books as book}
-	<div class="px-20 py-10">
+	<div class="lg:px-20 py-10">
 		<h2
 			class="border-l-4 pl-3 text-2xl py-4 mb-4 capitalize"
 			style={`border-color:${book.bookColorCode}`}

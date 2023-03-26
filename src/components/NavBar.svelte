@@ -13,8 +13,8 @@
 	$: active = $page.url.pathname.split('/').at(-1);
 </script>
 
-<header class={`py-10 text-white w-96 ${!menu ? 'hidden' : ''} lg:block`}>
-	<div class="w-full flex align-top justify-start px-10 mb-5 lg:hidden">
+<header class={` text-white w-96 ${!menu ? 'hidden' : ''} lg:block relative`}>
+	<div class="w-full flex align-top justify-start p-4 mb-5 lg:hidden">
 		<button
 			on:click={toggleMenu}
 			class="text-[#54b689] bg-white px-4 py-2 rounded-md cursor-pointer"
@@ -22,7 +22,7 @@
 			<Icon icon="material-symbols:menu-open-rounded" />
 		</button>
 	</div>
-	<nav class="w-full flex flex-col align-middle items-center gap-5">
+	<nav class="w-full py-10 flex flex-col align-middle items-center gap-5">
 		<h2 class="text-center text-3xl w-full font-semibold">{heading}</h2>
 		<div class="flex flex-col items-center gap-2 px-3 mt-2">
 			<img alt="Aditya Rawas" src={image} class="rounded-full w-36" />
