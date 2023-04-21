@@ -22,7 +22,20 @@
 			<Icon icon="material-symbols:menu-open-rounded" />
 		</button>
 	</div>
+
 	<nav class="w-full py-10 flex flex-col align-middle items-center gap-5">
+		{#if !showSocials}
+			<div class="w-full flex align-top justify-center">
+				<a
+					href="/"
+					on:click={toggleMenu}
+					class="text-[#54b689] bg-white px-4 py-2 rounded-md cursor-pointer flex items-center"
+				>
+					<Icon icon="material-symbols:chevron-left" />
+					Go back
+				</a>
+			</div>
+		{/if}
 		<h2 class="text-center text-3xl w-full font-semibold">{heading}</h2>
 		<div class="flex flex-col items-center gap-2 px-3 mt-2">
 			<img alt="Aditya Rawas" src={image} class="rounded-full w-36" />

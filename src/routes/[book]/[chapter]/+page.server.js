@@ -17,8 +17,6 @@ export async function load({ params }) {
             }
         }
     } else if (idx !== -1) {
-        console.log(idx)
-        console.log(allSlugs)
         if ((allSlugs.length - 1) === idx) {
             prev = {
                 slug: allSlugs[idx - 1],
@@ -35,7 +33,6 @@ export async function load({ params }) {
             }
         }
     }
-    console.log(prev)
     let content = blogPost.default.render()
     return {
         props: {

@@ -8,10 +8,10 @@
 		"chapters": [
 			{
 				"category": "JavaScript",
-				"name": "Introduction to javascript",
-				"slug": "introduction_to_javascript",
-				"chapter": "introduction_to_javascript",
-				"description": "This series is minimalistic and purpose of this series is to make yourself familiar with code JavaScript."
+				"name": "What is JavaScript ?",
+				"slug": "what_is_javascript",
+				"chapter": "what_is_javascript",
+				"description": "JavaScript is a programming language that has become a fundamental technology of the web. It is an essential tool for developers who want to create dynamic and interactive web."
 			}
 		]
 	}
