@@ -14,7 +14,7 @@ excerpt: In order to start writing JavaScript code, it is essential to set up a 
     import Video from '../../components/Video.svelte';
     </script>
 
-    <Video src="" />
+    <Video src="setting_up_env.mp4" />
 In order to start writing JavaScript code, you need to set up a development environment on your computer. This lesson will guide you through the process of setting up a basic development environment for JavaScript programming.
 
 **Step 1: Install a Text Editor**
